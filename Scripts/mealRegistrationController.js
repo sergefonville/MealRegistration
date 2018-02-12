@@ -17,6 +17,6 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 		.when('/edit', {
 			templateUrl: 'Templates/edit.template.html'
 		});
-	// This needs to be done as a function, as a parameter to html5Mode does not work.
+	// This needs to be done as a function call, as a parameter to html5Mode does not work.
 	$locationProvider.hashPrefix('');
 }]);
