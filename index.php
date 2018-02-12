@@ -16,6 +16,7 @@
 			crossorigin="anonymous"
 		>
 		</script>
+		<script src="Scripts/mealRegistration.js"></script>
 		<script src="Scripts/mealRegistrationController.js"></script>
 	</head>
 	<body>
