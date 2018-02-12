@@ -39,6 +39,6 @@
 				</li>
 			</ul>
 		</nav>
-		<div ng-view></div>
+		<div ng-view ng-controller="mealRegistrationController"></div>
 	</body>
 </html>
