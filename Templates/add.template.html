@@ -10,6 +10,6 @@ Total FoodItems: {{foodItems.length}}
 		<td><input ng-model="foodItem.amount" /></td>
 		<td><input ng-model="foodItem.kcal" type="text" /></td>
 		<td><input ng-model="foodItem.carbs" type="text" /></td>
-		<td><i class="fas fa-trash-alt" ng-click="removeFoodItem(foodItem)"></i></td>
+		<td><button class="btn btn-default" ng-click="removeFoodItem(foodItem)"><i class="fas fa-trash-alt"></i></button></td>
 	</tr>
 </table>
