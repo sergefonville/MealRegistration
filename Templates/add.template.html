@@ -2,7 +2,7 @@ Total FoodItems: {{foodItems.length}}
 <button ng-click="addFoodItem()">Add Food Item</button>
 <table>
 	<tr>
-		<th>Name</th><th>Unit</th><th>Amount</th><th>Kcal</th><th>Carbs</th>
+		<th>Name</th><th>Unit</th><th>Amount</th><th>Kcal</th><th>Carbs</th><th>x-fast</th>
 	</tr>
 	<tr ng-repeat="foodItem in foodItems">
 		<td><input type="text" /></td>
@@ -10,6 +10,6 @@ Total FoodItems: {{foodItems.length}}
 		<td><input ng-model="foodItem.amount" /></td>
 		<td><input ng-model="foodItem.kcal" type="text" /></td>
 		<td><input ng-model="foodItem.carbs" type="text" /></td>
-		<td><button class="fas fa-trash-alt" ng-click="removeFoodItem(foodItem)" /></td>
+		<td><i class="fas fa-trash-alt" ng-click="removeFoodItem(foodItem)"></i></td>
 	</tr>
 </table>
