@@ -2,7 +2,7 @@ app.controller('mealRegistrationController', ['$scope', '$http', function($scope
 	$scope.foodItems = [];
 	$scope.units = [];
 	$scope.units.push('Grams');
-	$scope.units.push('Kcal');
+	$scope.units.push('Portions');
 	$scope.addFoodItem = function() {
 		var foodItem = {
 			name: '',
