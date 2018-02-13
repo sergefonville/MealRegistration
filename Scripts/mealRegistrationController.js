@@ -9,7 +9,7 @@ app.controller('mealRegistrationController', ['$scope', '$http', function($scope
 			unit: units[0],
 			amount: '',
 			kcal: '',
-			carbs:
+			carbs: ''
 		};
 		$scope.foodItems.push(foodItem);
 	};
