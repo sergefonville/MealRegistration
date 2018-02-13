@@ -10,7 +10,7 @@ app.controller('mealRegistrationController', ['$scope', '$http', function($scope
 			amount: '',
 			kcal: '',
 			carbs:
-		}
+		};
 		$scope.foodItems.push(foodItem);
 	};
 	$scope.removeFoodItem = function(foodItem) {
