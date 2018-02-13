@@ -6,4 +6,8 @@ app.controller('mealRegistrationController', ['$scope', '$http', function($scope
 	$scope.addFoodItem = function() {
 		$scope.foodItems.push({});
 	};
+	$scope.removeFoodItem = function(foodItem) {
+		var foodItemIndex =  $scope.foodItems.indexOf(foodItem);
+		$scope.foodItems.splice(foodItemIndex, 1);
+	}
 }]);
