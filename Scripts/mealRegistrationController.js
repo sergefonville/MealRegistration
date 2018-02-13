@@ -4,7 +4,14 @@ app.controller('mealRegistrationController', ['$scope', '$http', function($scope
 	$scope.units.push('Grams');
 	$scope.units.push('Kcal');
 	$scope.addFoodItem = function() {
-		$scope.foodItems.push({});
+		var foodItem = {
+			name: '',
+			unit: units[0],
+			amount: '',
+			kcal: '',
+			carbs:
+		}
+		$scope.foodItems.push(foodItem);
 	};
 	$scope.removeFoodItem = function(foodItem) {
 		var foodItemIndex =  $scope.foodItems.indexOf(foodItem);
