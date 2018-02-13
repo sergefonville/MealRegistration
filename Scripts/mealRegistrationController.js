@@ -6,7 +6,7 @@ app.controller('mealRegistrationController', ['$scope', '$http', function($scope
 	$scope.addFoodItem = function() {
 		var foodItem = {
 			name: '',
-			unit: units[0],
+			unit: $scope.units[0],
 			amount: '',
 			kcal: '',
 			carbs: ''
