@@ -7,8 +7,8 @@ Total FoodItems: {{foodItems.length}}
 	<tr ng-repeat="foodItem in foodItems">
 		<td><input type="text" /></td>
 		<td>
-			<select ng-model="foodItem.unit" ng-value="unit[0]">
-				<option ng-repeat="unit in units">{{unit}}</option>
+			<select ng-model="foodItem.unit">
+				<option ng-selected="$first" ng-repeat="unit in units">{{unit}}</option>
 			</select>
 		</td>
 		<td><input ng-model="foodItem.amount" /></td>
