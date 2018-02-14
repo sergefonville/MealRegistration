@@ -7,3 +7,7 @@ The features that are to be implemented:
 * Adding and editing meals and foods
 * Using previously entered foods and including them in the meal
 * Add food automatically when it is not yet in the database
+
+# Prerequisites
+* PHP 7.2
+* sqlite3
