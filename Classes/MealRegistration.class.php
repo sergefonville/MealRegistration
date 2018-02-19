@@ -40,6 +40,18 @@
 		function addMeal($meal) {
 			
 		}
+
+		function updateMeal($meal) {
+
+		}
+
+		function addFoodItem($foodItem) {
+
+		}
+
+		function updateFoodItem($foodItem) {
+
+		}
 		
 		function __destruct() {
 			$this->close();
