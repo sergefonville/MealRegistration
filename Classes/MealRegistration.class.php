@@ -1,11 +1,15 @@
 <?php
+	require_once('Meal.class.php');
+	require_once('FoodItem.class.php');
 	class MealRegistration {
 		
-		private databaseConnection = new SQLite3();
+		private $databaseConnection;
 		
 		function __constructor() {
 			if(!extension_loaded('sqlite3'))
 				die('sqlite3 not loaded!');
+
+			$this->databaseConnection  = new SQLite3();
 			$createMealsStatement = "
 				CREATE TABLE IF NOT EXISTS meals(
 					id INTEGER AUTO_INCREMENT PRIMARY KEY,
