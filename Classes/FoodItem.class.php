@@ -3,7 +3,7 @@
 		public $Name;
 		public $Unit;
 		public $Amount;
-		public $Kcal
+		public $Kcal;
 		public $Carbs;
 	}
 ?>
