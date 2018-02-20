@@ -49,11 +49,27 @@
 
 		}
 
+		function getMeal($criteria) {
+			/*
+             * $criteria is an object that only has a timestamp property in this version
+			 * More filtering properties will be added in later versions
+			 */
+			
+		}
+
 		function addFoodItem($foodItem) {
 
 		}
 
 		function updateFoodItem($foodItem) {
+
+		}
+
+		function getFoodItem($criteria) {
+			/*
+             * $criteria is an object that only has a timestamp property in this version
+			 * More filtering properties will be added in later versions
+			 */
 
 		}
 		
