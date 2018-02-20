@@ -57,8 +57,8 @@
 
 		}
 		
-		function __destruct() {
-			$this->close();
+		function __destruct() { 
+			$this->databaseConnection->close();
 		}
 	}
 ?>
