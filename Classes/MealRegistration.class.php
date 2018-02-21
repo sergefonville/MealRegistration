@@ -42,6 +42,30 @@
 		}
 		
 		function addMeal($meal) {
+			/************************************************************
+			 *  A meal is assumed to be structured as follows:          *
+			 *  (displayed as JSON for clarity, an object is expected)	*
+			 *  {														*
+			 *		"timestamp": "yyyy-MM-dd HH:mm",					*
+			 *		"fooditems" [										*
+			 *	 		{												*
+			 *			    "name": String,								*
+ 			 *			    "unit": String,								*
+ 			 *			    "amount": Int,								*
+ 			 *			    "carbs": String,							*
+ 			 *			    "kcal": Int									*
+			 *			},												*
+			 *	 		{												*
+			 *			    "name": String,								*
+ 			 *			    "unit": String,								*
+ 			 *			    "amount": Int,								*
+ 			 *			    "carbs": String,							*
+ 			 *			    "kcal": Int									*
+			 *			},												*
+			 *			...												*
+			 * 		]													*
+			 *  }														*
+			 ************************************************************/
 			
 		}
 
@@ -58,7 +82,17 @@
 		}
 
 		function addFoodItem($foodItem) {
-
+			/************************************************************
+			 *  A fooditem is assumed to be structured as follows:      *
+			 *  (displayed as JSON for clarity, an object is expected)	*
+			 *	{														*
+			 *	    "name": String,										*
+			 *	    "unit": String,										*
+ 			 *	    "amount": Int,										*
+ 			 *	    "carbs": String,									*
+ 			 *	    "kcal": Int											*
+			 *	}														*
+			 ************************************************************/
 		}
 
 		function updateFoodItem($foodItem) {
