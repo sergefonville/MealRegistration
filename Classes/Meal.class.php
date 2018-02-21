@@ -1,6 +1,6 @@
 <?php
-	class Meal {
-		public $Timestamp;
-		public $FoodItems;
-	}
+  class Meal {
+    public $Timestamp;
+    public $FoodItems;
+  }
 ?>

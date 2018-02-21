@@ -1,5 +1,5 @@
 <?php
-	if($_SERVER['REQUEST_METHOD'] !== 'PUT') {
-		die("Invalid Request");
-	}
+  if($_SERVER['REQUEST_METHOD'] !== 'PUT') {
+    die("Invalid Request");
+  }
 ?>
