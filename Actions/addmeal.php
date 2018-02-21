@@ -1,5 +1,5 @@
 <?php
   require_once('../Includes/mealregistration.include.php');
-  $meal = json_decode($data);
+  $meal = to_meal($data);
   $mealRegistration->addMeal($meal);
 ?>
