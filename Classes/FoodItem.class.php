@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   class FoodItem {
     public $Name;
     public $Unit;

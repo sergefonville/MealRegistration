@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html ng-app="mealRegistration">
   <head>
     <title>Meal Registration</title>

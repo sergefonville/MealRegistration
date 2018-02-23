@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   require_once('Meal.class.php');
   require_once('FoodItem.class.php');
   class MealRegistration {

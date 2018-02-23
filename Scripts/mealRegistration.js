@@ -1,4 +1,4 @@
-var app = angular.module('mealRegistration', ['ngRoute']);
+﻿var app = angular.module('mealRegistration', ['ngRoute']);
 
 app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   $routeProvider

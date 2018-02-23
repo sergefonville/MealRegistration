@@ -1,9 +1,7 @@
-<?php
-if($_SERVER['REQUEST_METHOD'] !== 'PUT')
+﻿<?php
+  if($_SERVER['REQUEST_METHOD'] !== 'PUT')
     die("Invalid Request");
-  require_once('../Classes/MealRegistration.class.php');
-  $mealRegistration = new MealRegistration();
-  $data = file_get_contents('php://input');
+
   function to_meal($json) {
     $object = json_decode($json);
     $meal = new Meal();
@@ -14,5 +12,8 @@ if($_SERVER['REQUEST_METHOD'] !== 'PUT')
   function to_fooditem($json) {
 
   }
+  require_once('../Classes/MealRegistration.class.php');
+  $mealRegistration = new MealRegistration();
+  $data = file_get_contents('php://input');
 
 ?>

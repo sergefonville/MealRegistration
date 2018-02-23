@@ -1,4 +1,4 @@
-app.controller('mealRegistrationController', ['$scope', '$http', function($scope, $http) {
+﻿app.controller('mealRegistrationController', ['$scope', '$http', function($scope, $http) {
   $scope.foodItems = [];
   $scope.units = [];
   $scope.units.push('Grams');
